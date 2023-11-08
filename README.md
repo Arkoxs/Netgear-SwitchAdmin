@@ -1,5 +1,5 @@
 # Netgear-SwitchAdmin
-Python script to toggle ports on GS105E and CS108E switches
+Python script to toggle ports on GS105E and GS108E switches
 
 
 This is my first try on adapting a python script. The original script was created by Corey Anderson [netgear_admin](https://github.com/ElectricLab/netgear_admin) but did not work correctly on my GS105E and GS108E switches.
@@ -11,5 +11,5 @@ python netgear_admin.py -a switch_ipaddress -passwd password -p portnumber -s po
 
 If -s is set to status, the port status is returned
 If -s is set to on, the port is switched on
-If -s is set to soething else, the port is switched off
+If -s is set to something else, the port is switched off
 
